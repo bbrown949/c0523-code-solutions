@@ -1,11 +1,13 @@
 import { useState } from 'react';
 import './HotButton.css';
 
-export default function HotButton({ temperature }) {
+export default function HotButton() {
   const [timesClicked, setTimesClicked] = useState(0);
   function handleClick() {
     setTimesClicked(timesClicked + 1);
   }
+
+  let temperature = '';
 
   if (timesClicked < 3) {
     temperature = 'freezing';
