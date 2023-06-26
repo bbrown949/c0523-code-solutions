@@ -1,0 +1,64 @@
+* {
+  margin: 0;
+  padding: 20px;
+}
+
+.freezing {
+  color: white;
+  background-color: purple;
+  border: 2px black;
+  box-shadow: black;
+  cursor: pointer;
+  border-radius: 10px;
+  font-weight: bolder;
+}
+
+.cold {
+  color: white;
+  background-color: #674ea7;
+  border: 2px black;
+  box-shadow: black;
+  cursor: pointer;
+  border-radius: 10px;
+  font-weight: bolder;
+}
+
+.luke-warm {
+  color: white;
+  background-color: #e06666;
+  border: 2px black;
+  box-shadow: black;
+  cursor: pointer;
+  border-radius: 10px;
+  font-weight: bolder;
+}
+
+.warmer {
+  color: black;
+  background-color: #f6b26a;
+  border: 2px solid black;
+  box-shadow: black;
+  cursor: pointer;
+  border-radius: 10px;
+  font-weight: bolder;
+}
+
+.hot {
+  color: black;
+  background-color: yellow;
+  border: 2px solid black;
+  box-shadow: black;
+  cursor: pointer;
+  border-radius: 10px;
+  font-weight: bolder;
+}
+
+.on-fire {
+  color: black;
+  background-color: white;
+  border: 2px solid black;
+  box-shadow: black;
+  cursor: pointer;
+  border-radius: 10px;
+  font-weight: bolder;
+}
