@@ -1,27 +1,27 @@
 import { useState } from 'react';
 import './HotButton.css';
 
-export default function HotButton({ className }) {
+export default function HotButton({ temperature }) {
   const [timesClicked, setTimesClicked] = useState(0);
   function handleClick() {
     setTimesClicked(timesClicked + 1);
   }
 
   if (timesClicked < 3) {
-    className = 'freezing';
+    temperature = 'freezing';
   } else if (timesClicked < 6) {
-    className = 'cold';
+    temperature = 'cold';
   } else if (timesClicked < 9) {
-    className = 'luke-warm';
+    temperature = 'luke-warm';
   } else if (timesClicked < 12) {
-    className = 'warmer';
+    temperature = 'warmer';
   } else if (timesClicked < 15) {
-    className = 'hot';
+    temperature = 'hot';
   } else if (timesClicked < 18) {
-    className = 'on-fire';
+    temperature = 'on-fire';
   }
   return (
-    <button className={className} onClick={handleClick}>
+    <button className={temperature} onClick={handleClick}>
       Hot Button
     </button>
   );
