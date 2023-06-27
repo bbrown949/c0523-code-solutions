@@ -18,7 +18,7 @@ export default function RegistrationFormUncontrolled() {
         <input type="password" name="password"></input>
       </label>
 
-      <button>Sign in</button>
+      <button>Sign Up</button>
     </form>
   );
 }

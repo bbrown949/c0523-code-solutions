@@ -29,7 +29,7 @@ export default function RegistrationFormControlled() {
           onChange={(event) => setPassword(event.target.value)}></input>
       </label>
 
-      <button>Sign in</button>
+      <button>Sign Up</button>
     </form>
   );
 }
