@@ -23,16 +23,20 @@ export default function ValidatedInput() {
 
   return (
     <>
-      <label>Password</label>
       <div>
-        <input
-          type="password"
-          name="password"
-          onChange={(event) => setPassword(event.target.value)}
-          value={password}
-          onSubmit={handleSubmit}></input>
-        <span class="checkOrX">{checkOrX}</span>
-        <p>{text}</p>
+        <form>
+          <div>
+            <label>Password</label>
+          </div>
+          <input
+            type="password"
+            name="password"
+            onChange={(event) => setPassword(event.target.value)}
+            value={password}
+            onSubmit={handleSubmit}></input>
+          <span class="checkOrX">{checkOrX}</span>
+          <p>{text}</p>
+        </form>
       </div>
     </>
   );
