@@ -6,9 +6,14 @@ After completing this exercise, you should be able to discuss or answer the foll
 
 - What are the phases in the React design process?
 
-- How does data flow in React?
+1. Starting from a UI mockup, identify pieces that would make good components.
+2. Determine the UI state that must be held in the components and where that state should live.
+3. Determine the events (actions) that need to modify state, which child components they originate in, and how parent components should respond to them.
 
+- How does data flow in React?
+  typically unidirectional, meaning data is passed from parent components to child components.
 - How can children components modify state in their parents?
+  passing the state handle function as a prop of the child component.
 
 ## Notes
 
