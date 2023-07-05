@@ -1,0 +1,243 @@
+    1  git add react-rendering-lists
+    2  git commit -m "completed react-rendering-lists"
+    3  git push origin react-rendering-lists
+    4  git switch main
+    5  git pull origin main
+    6  git branch react-form-controls
+    7  git switch react-form-controls
+    8  cd react-form-controls
+    9  npx create-react-app my-app
+   10  cd react-form-controls
+   11  cd react-form-controls
+   12  cd my-app
+   13  npm start
+   14  cd ..
+   15  cd ..
+   16  git add react-form-controls
+   17  git commit -m "completed react-form-control"
+   18  cd react-form-controls
+   19  cd my-app
+   20  npm start
+   21  cd ..
+   22  cd ..
+   23  git add react-form-controls
+   24  git commit -m "small changes"
+   25  git push origin react-form-controls
+   26  cd react-form-controls
+   27  cd my-app
+   28  npm start
+   29  cd ..
+   30  cd ..
+   31  git switch main
+   32  git branch react-form-controls
+   33  git branch react-validated-input-component
+   34  git switch react-validated-input-component
+   35  cd react-validated-input-component
+   36  cd react-validated-input-component
+   37  npx create-react-app my-app
+   38  npm start
+   39  cd my-app
+   40  npm start
+   41  cd ..
+   42  cd ..
+   43  git add react-validated-input-component
+   44  git commit -m "completed react-validated-input-component
+   45  git commit -m "completed react-validated-input-component"
+   46  git push origin react-validated-input-component
+   47  git switch react-form-controls
+   48  git status
+   49  git switch main
+   50  git branch react-design
+   51  git switch react-design
+   52  cd react-design
+   53  npx create-react-app my-app
+   54  cd my-app
+   55  npm start
+   56  git add react-design
+   57  cd ..
+   58  cd ..
+   59  git add react-design
+   60  git commit -m "function Indicators() {} in progress"
+   61  git commit -m "react-design in progress"
+   62  git add react-design
+   63  git commit -m "react-design in progress"
+   64  git push origin react-design
+   65  git push origin react-design
+   66  git push origin react-design
+   67  cd react-design
+   68  cd my-app
+   69  npm start
+   70  npm start
+   71  npm start
+   72  git add react-design
+   73  git commit-m "finishing react-design"
+   74  cd react-design
+   75  cd my-app
+   76  npm start
+   77  git add react-design
+   78  git commit -m "finished react-design"
+   79  git push origin react-design
+   80  git switch main
+   81  git switch react-validated-input-component
+   82  cd ..
+   83  cd ..
+   84  cd react-validated-input-component
+   85  cd my-app
+   86  npm start
+   87  cd ..
+   88  cd ..
+   89  git add react-validated-input-component
+   90  git commit -m "updasted react-validated-input-component"
+   91  git push origin react-validated-input-component
+   92  git switch main
+   93  git branch react-search-component
+   94  git switch react-search-component
+   95  npx create-react-app my-app
+   96  cd react-search-component
+   97  cd my-app
+   98  npm start
+   99  cd ..
+  100  cd ..
+  101  git add react-search-component
+  102  git commit -m "react-search-component working..."
+  103  git switch main
+  104  git branch react-accordion-component
+  105  git switch react-accordion-component
+  106  cd react-accordion-component
+  107  npx create-react-app my-app
+  108  npm start
+  109  cd my-app
+  110  npm start
+  111  cd ..
+  112  cd ..
+  113  git add react-accordion-component
+  114  git commit -m "completed react-accordion-component"
+  115  git push origin react-accordion-component
+  116  git status
+  117  git switch main
+  118  git branch react-app-drawer-component
+  119  git switch react-app-drawer-component
+  120  cd react-app-drawer-component
+  121  npx create-react-app my-app
+  122  cd my-app
+  123  npm start
+  124  npm install react-icons
+  125  npm start
+  126  cd ..
+  127  cd ..
+  128  git add react-app-drawer-component
+  129  git commit -m "completed react-app-drawer-component"
+  130  git push origin react-app-drawer-component
+  131  git switch main
+  132  git switch react-validated-input-component
+  133  cd react-validated-input-component
+  134  cd my-app
+  135  npm start
+  136  cd ..
+  137  cd ..
+  138  git add react-validated-input-component
+  139  git commit -m "completed react-validated-input-component"
+  140  git push origin react-validated-input-component
+  141  git switch main
+  142  git status
+  143  git branch react-events
+  144  git switch  react-events
+  145  cd react-events
+  146  cd react-events
+  147  npx create-react-app my-app
+  148  cd my app
+  149  npm start
+  150  cd my-app
+  151  npm start
+  152  cd ..
+  153  cd ..
+  154  git add react-events
+  155  git commit -m "react-events practice"
+  156  git push origin react-events
+  157  git switch main
+  158  git status
+  159  git branch
+  160  git branch react-state
+  161  git switch react-state
+  162  cd react-state
+  163  npx create-react-app my-app
+  164  npm start
+  165  cd my-app
+  166  npm start
+  167  cd react-state
+  168  cd my-app
+  169  npm start
+  170  cd ..
+  171  cd ..
+  172  git add react-state
+  173  git commit -m "react-state practice"
+  174  git push origin react-state
+  175  git switch main
+  176  git switch react-events
+  177  cd react-events
+  178  cd my-app
+  179  npm start
+  180  cd ..
+  181  cd ..
+  182  git switch main
+  183  git switch react-app-drawer-component
+  184  git switch main
+  185  git branch command-line-basics
+  186  git switch command-line-basics
+  187  cd command-line interfaces.
+  188  cd command-line-basics
+  189  man man
+  190  man cat
+  191  cat laziness.text
+  192  man cat
+  193  cat laziness.text
+  194  cat laziness.txt
+  195  cat hubris.txt
+  196  cat laziness.txt impatience.txt hubris.txt > three-virtues.txt
+  197  cat three-virtues.txt
+  198  man ls
+  199  ls command-line-basics
+  200  ls command-line-basics
+  201  ls -a command-line-basics
+  202  ls
+  203  ls -a
+  204  ls lfz-staff
+  205  ls -a lfz-staff
+  206  ls -F lfz-staff
+  207  ls -aF lfz-staff > lfz-staff/contents.txt
+  208  cat lfz-staff/contents.txt
+  209  man pwd
+  210  pwd
+  211  pwd > i-was-here.txt
+  212  ls
+  213  cat i-was-here.txt
+  214  man echo
+  215  echo 'Hello, World!'
+  216  echo 'Hello, World!' > hello.txt
+  217  ls
+  218  man touch
+  219  touch tag-youre-it.txt
+  220  touch snoot/boop.txt
+  221  ls snoot/
+  222  man mkdir
+  223  mkdir parent
+  224  ls
+  225  mkdir -p parent/child/grandchild
+  226  touch .gitkeep
+  227  touch .gitkeep parent/child/grandchild
+  228  touch parent/child/grandchild.gitkeep
+  229  man mv
+  230  mv pokiemans > pokemon
+  231  mv pokiemans > pokemon
+  232  ls
+  233  rm lol.txt
+  234  ls
+  235  rm -r kill-me/
+  236  ls
+  237  man cp
+  238  cp and-then.txt no-and-then.txt
+  239  ls
+  240  cat and-then.txt no-and-then.txt
+  241  man history
+  242  history
+  243  history > command-history.txt
