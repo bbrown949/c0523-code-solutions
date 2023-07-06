@@ -17,11 +17,11 @@ async function throwSeveral() {
   // Note: In the `catch` we are logging just `error.message` for illustration
   // purposes. In actual code you will want to log `error` so that
   // you get the stack trace.
-  const msg = await fetch('foo1', false);
+  const msg = await fetch('foo1', true);
   console.log(elapsed(), 'throwSeveral1:', msg);
   const msg2 = await fetch('foo2', true);
   console.log(elapsed(), 'throwSeveral2:', msg2);
-  const msg3 = await fetch('foo3', false);
+  const msg3 = await fetch('foo3', true);
   console.log((elapsed(), 'throwSeveral3:', msg3));
 }
 
@@ -39,5 +39,5 @@ try {
   await throwSeveral();
   await throwChained();
 } catch (error) {
-  console.log(elapsed(), 'throw Error', error.message);
+  console.log(elapsed(), 'Error', error.message);
 }
