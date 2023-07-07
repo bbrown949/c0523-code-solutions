@@ -41,7 +41,7 @@ async function removeNote() {
 }
 
 // User can update a note: the user should be able to replace the content of an
-// existing note given its id and the new content.
+// existing note given its id and the new content..
 
 async function updateNote() {
   try {
