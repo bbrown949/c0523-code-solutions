@@ -3,7 +3,6 @@ import React, { useState } from 'react';
 
 export default function AppDrawer({ listItems }) {
   const [clickedOpen, setClickedOpen] = useState(true);
-
   return (
     <div className="container">
       <div onClick={() => setClickedOpen(!clickedOpen)} className="menu-icon">
