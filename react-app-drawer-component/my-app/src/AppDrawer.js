@@ -12,7 +12,7 @@ export default function AppDrawer({ listItems }) {
         onClick={() => setClickedOpen(!clickedOpen)}
         className={clickedOpen ? 'menu-shade' : 'menu-shade is-drawn'}></div>
       <div className={clickedOpen ? 'menu-drawer' : 'menu-drawer is-open'}>
-        <h3 className="menu-heading">Star Wars Info</h3>
+        <h3 className="menu-heading">Menu</h3>
         <DrawerList listItems={listItems} />
       </div>
     </div>
