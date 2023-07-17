@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react';
+import { useState, useEffect, useCallback } from 'react';
 import {
   FaChevronLeft,
   FaChevronRight,
@@ -11,7 +11,7 @@ export default function Carousel({ data }) {
   const [currentIndex, setCurrentIndex] = useState(0);
   const currentImg = data[currentIndex];
 
-  const handleRightClick = useEffect(() => {
+  const handleRightClick = useCallback(() => {
     setCurrentIndex((prev) => (prev + 1) % data.length);
   }, [data]);
 
