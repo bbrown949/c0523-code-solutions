@@ -14,6 +14,8 @@ After completing this exercise, you should be able to discuss or answer the foll
   through props with the help of useContext method in React. This hook (useContext) can be passed in as the argument along with our Context to consume the data in the functional component.
 - When would you use context? (in addition to the best answer: "rarely")
 
+fg
+
 ## Notes
 
 All student notes should be written here.
