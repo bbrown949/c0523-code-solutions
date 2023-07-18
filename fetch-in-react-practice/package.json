@@ -1,0 +1,20 @@
+{
+  "name": "fetch-in-react-practice",
+  "version": "1.0.0",
+  "scripts": {
+    "db:import": "sh database/import.sh",
+    "dev:db": "pgweb --db=`awk 'BEGIN { FS = \"/\" } ; /DATABASE_URL=/ {print $NF}' server/.env`",
+    "dev:client": "npm run start --prefix client",
+    "dev:server": "npm run dev --prefix server",
+    "dev": "npm-run-all --parallel --print-label dev:*",
+    "dev-ts:db": "pgweb --db=`awk 'BEGIN { FS = \"/\" } ; /DATABASE_URL=/ {print $NF}' server/.env`",
+    "dev-ts:client": "npm run start --prefix client-ts",
+    "dev-ts:server": "npm run dev --prefix server",
+    "dev-ts": "npm-run-all --parallel --print-label dev-ts:*",
+    "install:client": "npm install --prefix client",
+    "install:client-ts": "npm install --prefix client-ts",
+    "install:server": "npm install --prefix server",
+    "install:env": "cp server/.env.example server/.env",
+    "postinstall": "npm-run-all --parallel install:*"
+  }
+}
