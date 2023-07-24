@@ -12,7 +12,7 @@ export function evenNumbers(numbers) {
  * `toDollars(11.341)` returns `$11.34`.
  */
 export function toDollars(amount) {
-  return `$${amount}.00`;
+  return `$${amount.toFixed(2)}`;
 }
 
 /**
